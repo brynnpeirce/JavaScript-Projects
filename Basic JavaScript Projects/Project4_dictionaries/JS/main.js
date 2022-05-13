@@ -1,6 +1,6 @@
-function my_Dictionary() {
-    var colors = {
-        RD: "red",
+function my_Dictionary() { //function that can be called on in html
+    var colors = { //dictionary of colors
+        RD: "red", 
         YLW: "yellow",
         BL: "blue",
         OR: "orange",
@@ -8,6 +8,6 @@ function my_Dictionary() {
         PRL: "pearl"
 
     };
-    delete colors.RD;
-    document.getElementById("Dictionary").innerHTML = colors.PRL;
+    delete colors.RD; //deleted the color red
+    document.getElementById("Dictionary").innerHTML = colors.PRL; //print pearl
 }
