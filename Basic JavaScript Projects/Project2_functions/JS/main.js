@@ -8,3 +8,4 @@ function myFunction() { //second function called myFuntion
     sentence += " a lot from this book."; //This string will add on to the string above
     document.getElementById("concatenate").innerHTML = sentence; //This will allow HTML to call on JS
 }
+
