@@ -9,5 +9,5 @@ function my_Dictionary() { //function that can be called on in html
 
     };
     delete colors.RD; //deleted the color red
-    document.getElementById("Dictionary").innerHTML = colors.PRL; //print pearl
+    document.getElementById("Dictionary").innerHTML = colors.RD; // will print "undefined"
 }
